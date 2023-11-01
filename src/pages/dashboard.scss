@@ -1,0 +1,46 @@
+.head-container {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 90px;
+  margin-right: 90px;
+  margin-top: 40px;
+
+
+  .search-container {
+    background: #FFF;
+  
+    input {
+      border: none;
+      border-radius: 3px;
+      box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15);
+      width: 300px;
+      height: 40px;
+    }
+  }
+  
+  .filter-container {
+    background: #FFF;
+  
+    select {
+      border: none;
+      border-radius: 3px;
+      box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15);
+      width: 300px;
+      height: 40px;
+    }
+  }
+}
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 60px;
+  margin-left: 30px;
+}
+
+
+
+

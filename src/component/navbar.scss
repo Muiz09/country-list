@@ -1,0 +1,35 @@
+.navbar {
+  background: #FFF;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15);
+
+  .content {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 90px;
+    margin-right: 90px;
+  }
+
+  h1 {
+    color: #121214;
+    font-family: Roboto Flex;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .mode {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    p {
+      color: #121214;
+      font-family: Roboto;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      text-transform: capitalize;
+    }
+  }
+}
