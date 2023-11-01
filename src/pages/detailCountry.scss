@@ -50,14 +50,33 @@
       text-transform: capitalize;
     }
 
-    .text-p {
-      color: #121214;
-      font-family: Roboto;
-      font-size: 16px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 15px;
-      text-transform: capitalize;
+    .flex-0 {
+      display: flex;
+      gap: 20px;
+
+      .text-p {
+        color: #121214;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 15px;
+        text-transform: capitalize;
+
+        span {
+          color: rgba(0, 0, 0, 0.50);
+          font-family: Roboto;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          text-transform: capitalize;
+          margin-left: 5px;
+          
+        }
+      }
+
     }
+
   }
 }
